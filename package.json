@@ -2,15 +2,18 @@
   "name": "chai-aur-code",
   "version": "1.0.0",
   "description": "a backend by hitesh",
+  "type": "commonjs",
   "keywords": [
     "js",
     "backend",
     "chai"
   ],
   "author": "Pratik Raj",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
